@@ -1,0 +1,45 @@
+*How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+-    It puts them side by side but I did had to stress my eyes and look for the bug myself. Exhausting!
+
+*How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+-    It lets you know the different evolutions of your file thus making it easier to pinpoint faults. 
+
+*What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+-   ~ Advantages of Manual Save                                ~ Advantages of Auto Save
+    * Flexible                                                 * No fear of negligence or power failure
+     * You get the right amount of commits you prefer        
+
+   ~ Disadvantages of Manual Save                             ~ Disadvantages of Auto  Save
+     * You might forget or power failure                       * Might get too much commits
+    * Too much willpower taken for an over-thinker             * Might get commits that are not working
+
+
+
+*Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+-    It all depends on the type of work/project your dealing with.
+    Having multiple file saving in some projects makes it a lot easier to handle the work. HTML + cSS files are good example of these types of projects.
+    Also, not allowing saving multiple files in some projects can be of an advantage to you in which the files your dealing with doesn't require changes across all contents. Projects like photos in photoshop are good examples of these. 
+
+*How can you use the commands git log and git diff to view the history of files?
+
+-    By entering git log in the location of your file you see all your commits. Then you can copy any commit's ID and pair
+    it with another using git diff to see the difference between them.
+
+*How might using version control make you more confident to make changes that
+could break something?
+
+-    It gives a sense of security. It's not a scrary thing to make risky changes to your file anymore when using VCS because
+    you can easily go back to a working version in case something goes wrong.
+
+*Now that you have your workspace set up, what do you want to try using Git for?
+
+-    Nothing for the time being :)
