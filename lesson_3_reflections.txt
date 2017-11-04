@@ -1,29 +1,32 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    When you'll like to collaborate.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You might not like every change automatically getting merged because it can even cause bugs to your original file if you haven't compared and ellaborate.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are like clones. The difference is that they're on GitHub. You'll use them when you see a repo on GitHub you'll like to work on it remotely.
+    Clones bring repos that are on remotes(GitHub) to your local computer. It's important when you would like to make changes that can't happen or aren't as easy to make on GitHub.
+    Branches makes adding a new feature or experimenting easier and safer because you won't have to risk breaking your original file. I like to say that they are like an alternate timeline you create to work on some things before finally deciding to add those changes to your original file.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It helps a lot in times when you're going offline. Whenever you come back online you can compare to see what has changed at the time you're offline. And if you had made some commits locally you can then assess how to merge them.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    This is not a lazy answer but I think everything would be harder and nothing would be easier. Especially on projects that involves code.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When I'm still not done working on a feature or experiment I make changes to a seperate branch in order not to risk breaking the master or causing any conflicts. Also when I'm collaborating and I would like to show my idea to other collaborators before deciding to actually add it to the master(original file).
+    If I'm working solo and I'm positive that a change in the file won't cause any headaches I can easily choose to go ahead and make changes to master directly without creating a seperate branch.
